@@ -31,6 +31,8 @@ hr {
     width: 30%;
     color: orange;
 }
+
+
 /* Header */
 
 
@@ -170,3 +172,54 @@ main {
     
 }
 
+
+
+/* Footer */
+
+footer {
+
+    background-color: rgb(158, 75, 236);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer_container{
+
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+
+.footer_container_section {
+
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+    
+    margin-top: 20px;
+}
+
+.footer_container_section a {
+
+    color: white;
+}
+
+.footer_container p {
+
+    color: white;
+}
