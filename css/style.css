@@ -24,6 +24,12 @@ ul {
 
 h2 {
     margin-top: 10px;
+    
+}
+
+hr {
+    width: 30%;
+    color: orange;
 }
 /* Header */
 
@@ -41,18 +47,34 @@ h2 {
 
 main {
 
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
     background-color: rgba(246,245,243,255);
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
 
+}   
+
+.general_box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: 85%;
 }
 .tiramisu_video_box{
 
-    /* background-color: blue;
-    height: 700px; */
-    width: 85%;
+    /* background-color: blue; */
+    /* height: 700px; */
+    width: 100%;
     margin-top: 20px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
     
    
 }
@@ -77,6 +99,12 @@ main {
     
 }
 
+#banner_container {
+
+    width: 100%;
+    display: none;
+}
+
 #social_button_box {
 
     width: 100%;
@@ -96,3 +124,49 @@ main {
     padding: 5px;
     text-align: center;
 }
+
+/* Parte presentazione */
+
+.tiramisu_presentation{
+
+    /* background-color: blue; */
+    /* height: 700px; */
+    width: 100%;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    /* justify-content: center; */
+    
+   
+    
+    
+    
+   
+}
+
+#tiramisu_presentation_box {
+
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+
+.tiramisu_presentation h2 {
+
+    font-size: 40px;
+    border-bottom: 2px solid orange;
+    width: 60px;
+}
+
+#presentation_center {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
