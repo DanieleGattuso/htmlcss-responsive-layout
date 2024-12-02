@@ -4,3 +4,65 @@
     box-sizing: border-box;
     
 }
+
+
+h1 {
+
+    color: rgb(255, 166, 0);
+    font-size: 35px;
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+
+
+#header_container {
+
+    /* background-color: aqua; */
+    width: 100%;
+    
+    text-align: center;
+    
+}
+
+/* Main */
+
+main {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.tiramisu_video_box{
+
+    background-color: blue;
+    height: 700px;
+    width: 85%;
+    margin-top: 20px;
+   
+}
+
+.video_box {
+
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: red; */
+}
+
+.description_box {
+
+    width: 100%;
+    /* height: 300px;
+    background-color: rgb(241, 1, 213); */
+    padding: 20px;
+}
